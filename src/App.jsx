@@ -16,17 +16,19 @@ function App() {
       
       <h1>Fundamentos React</h1>
 
-      <Cards titulo='#2 - Exemplo de Card'>
-        <NumeroAleatorio min={1} max={100} />
-      </Cards>
+      <div className="Cards">
+        <Cards titulo='#2 - Exemplo de Card'>
+          <NumeroAleatorio min={1} max={100} />
+        </Cards>
 
-      <Cards titulo='#1 - Com Parâmetro'>
-        <ComParametro 
-          titulo='Situção do aluno' 
-          aluno='Ana Carolina' 
-          nota={6.3} 
-        />
-      </Cards>
+        <Cards titulo='#1 - Com Parâmetro'>
+          <ComParametro 
+            titulo='Situção do aluno' 
+            aluno='Ana Carolina' 
+            nota={6.3} 
+          />
+        </Cards>
+      </div>
 
     </div>
   );
