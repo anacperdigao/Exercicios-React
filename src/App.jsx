@@ -8,9 +8,11 @@ import './App.css';
 import NumeroAleatorio from './components/NumeroAleatorio';
 import Cards from './components/Cards';
 import ComParametro from './components/ComParametro';
-import Familia from './components/FamiliaChildren';
 import MembroFamilia from './components/MembroFamilia';
 import FamiliaDireto from './components/FamiliaDireto';
+import ListaAlunos from './components/ListaAlunos';
+import TabelaProdutos from './components/TabelaProdutos';
+import FamiliaChildren from './components/FamiliaChildren';
 
 
 function App() {
@@ -21,12 +23,20 @@ function App() {
 
       <div className="Cards">
 
+        <Cards titulo='#6 - Repetição Tabela' color='#3a9ad9'>
+          <TabelaProdutos />
+        </Cards>
+
+        <Cards titulo='#5 - Repetição Lista' color='#ff4c65'>
+          <ListaAlunos />
+        </Cards>
+
         <Cards titulo='#4 - Componente com Filhos' color='#00c8f8'>
-          <Familia sobrenome='Ferreira'>
+          <FamiliaChildren sobrenome='Ferreira'>
             <MembroFamilia nome='Pedro' />
             <MembroFamilia nome='Ana' />
             <MembroFamilia nome='Gustavo' />
-          </Familia>
+          </FamiliaChildren>
         </Cards>
 
         <Cards titulo='#3 - Componente com Filhos' color='#e8b71a'>
@@ -44,7 +54,7 @@ function App() {
             nota={6.3} 
           />
         </Cards>
-        
+
       </div>
 
     </div>

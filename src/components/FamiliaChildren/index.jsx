@@ -1,7 +1,7 @@
 import React, { cloneElement } from 'react'
 
 
-const Familia = (props) => {
+const FamiliaChildren = (props) => {
     // console.log(props)
     // console.log(props.children)
 
@@ -15,4 +15,4 @@ const Familia = (props) => {
   )
 }
 
-export default Familia
+export default FamiliaChildren
