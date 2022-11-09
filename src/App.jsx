@@ -5,16 +5,16 @@ import React from 'react';
 import './App.css';
 
 // Components
-import NumeroAleatorio from './components/NumeroAleatorio';
-import Cards from './components/Cards';
-import ComParametro from './components/ComParametro';
-import MembroFamilia from './components/MembroFamilia';
-import FamiliaDireto from './components/FamiliaDireto';
-import ListaAlunos from './components/ListaAlunos';
-import TabelaProdutos from './components/TabelaProdutos';
-import FamiliaChildren from './components/FamiliaChildren';
-import CondicionalTernario from './components/CondicionalTernario';
-import CondicionalIf from './components/CondicionalIf';
+import NumeroAleatorio from './components/basicos/NumeroAleatorio';
+import Cards from './components/basicos/Cards';
+import ComParametro from './components/basicos/ComParametro';
+import MembroFamilia from './components/basicos/MembroFamilia';
+import FamiliaDireto from './components/basicos/FamiliaDireto';
+import FamiliaChildren from './components/basicos/FamiliaChildren';
+import ListaAlunos from './components/repeticao/ListaAlunos';
+import TabelaProdutos from './components/repeticao/TabelaProdutos';
+import CondicionalTernario from './components/condicional/CondicionalTernario';
+import CondicionalIf from './components/condicional/CondicionalIf';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import alunos from '../../data/alunos.js'
+import alunos from '../../../data/alunos.js'
 
 const ListaAlunos = () => {
 

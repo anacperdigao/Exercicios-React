@@ -1,5 +1,5 @@
 import React from 'react'
-import listaProdutos from '../../data/produtos.js'
+import listaProdutos from '../../../data/produtos.js'
 import '../TabelaProdutos/styles.css'
 
 const TabelaProdutos = () => {
