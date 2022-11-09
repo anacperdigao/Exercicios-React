@@ -17,3 +17,5 @@ Vamos ao fluxo de passar informações de filho para o pai:
                 setNumero(numero);
                 setBoolean(boolean);
             }
+
+3 - Componente controlado só reflete a mudança na parte visual se o estado modificar, como por exemplo o input. Ou seja, a renderização desse componente é controlada pela modificação ou não do seu estado.

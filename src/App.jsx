@@ -17,6 +17,7 @@ import CondicionalTernario from './components/condicional/CondicionalTernario';
 import CondicionalIf from './components/condicional/CondicionalIf';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
+import ComponenteControlado from './components/formulario/ComponenteControlado';
 
 
 
@@ -27,6 +28,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+        <Cards titulo='#10 - Formulário - Componente Controlado' color='#e45f56'>
+          <ComponenteControlado />
+        </Cards>
 
         <Cards titulo='#9 - Comunicação Indireta' color='#8bad39'>
           <IndiretaPai />
