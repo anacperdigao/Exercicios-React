@@ -1,0 +1,49 @@
+.Contador {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25% ;
+    align-items: center;
+    justify-content: center;
+}
+
+.Numero {
+    font-size: 24px;
+}
+
+.Passo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Passo input{
+    width: 20%;
+}
+
+.Botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.Botoes button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #e45f56;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Botoes button:hover{
+    opacity: 0.8;
+}
