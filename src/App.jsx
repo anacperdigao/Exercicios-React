@@ -13,6 +13,9 @@ import FamiliaDireto from './components/FamiliaDireto';
 import ListaAlunos from './components/ListaAlunos';
 import TabelaProdutos from './components/TabelaProdutos';
 import FamiliaChildren from './components/FamiliaChildren';
+import CondicionalTernario from './components/CondicionalTernario';
+import CondicionalIf from './components/CondicionalIf';
+
 
 
 function App() {
@@ -22,6 +25,11 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+        <Cards titulo='#7 - Condicional Ternário e If' color='#982395'>
+          <CondicionalTernario numero={23} />
+          <CondicionalIf usuario={{nome: 'Fernando'}} />
+        </Cards>
 
         <Cards titulo='#6 - Repetição Tabela' color='#3a9ad9'>
           <TabelaProdutos />
