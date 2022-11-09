@@ -15,6 +15,8 @@ import ListaAlunos from './components/repeticao/ListaAlunos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import CondicionalTernario from './components/condicional/CondicionalTernario';
 import CondicionalIf from './components/condicional/CondicionalIf';
+import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 
 
@@ -25,6 +27,14 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+        <Cards titulo='#9 - Comunicação Indireta' color='#8bad39'>
+          <IndiretaPai />
+        </Cards>
+
+        <Cards titulo='#8 - Comunicação Direta' color='#59323c'>
+          <DiretaPai />
+        </Cards>
 
         <Cards titulo='#7 - Condicional Ternário e If' color='#982395'>
           <CondicionalTernario numero={23} />
