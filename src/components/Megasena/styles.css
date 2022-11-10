@@ -1,0 +1,33 @@
+.Minimo, .Maximo, .Quantidade{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Minimo input, .Maximo input, .Quantidade input{
+    width: 20%;
+}
+
+.Megasena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Megasena button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.Numeros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

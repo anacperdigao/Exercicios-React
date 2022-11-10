@@ -19,6 +19,7 @@ import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import ComponenteControlado from './components/formulario/ComponenteControlado';
 import Contador from './components/Contador';
+import Megasena from './components/Megasena';
 
 
 
@@ -29,6 +30,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+        <Cards titulo='#12 - Megasena' color='#fa6900'>
+          <Megasena />
+        </Cards>
 
         <Cards titulo='#11 - Contador' color='#424242'>
           <Contador />

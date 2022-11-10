@@ -19,3 +19,6 @@ Vamos ao fluxo de passar informações de filho para o pai:
             }
 
 3 - Componente controlado só reflete a mudança na parte visual se o estado modificar, como por exemplo o input. Ou seja, a renderização desse componente é controlada pela modificação ou não do seu estado.
+
+
+4 - Vale lembrar que o valor vindo de um input vem sempre como string, então é necessário usar Number(valor), ou apenas +valor que já muda pra number.
